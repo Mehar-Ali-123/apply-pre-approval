@@ -1,0 +1,19 @@
+.table :global(.p-datatable .p-datatable-thead > tr > th:first-child) {
+    border-width: 1px 0px 1px 1px;
+}
+.table :global(.p-datatable .p-datatable-thead > tr > th:last-child) {
+    border-width: 1px 1px 1px 0px;
+}
+.table :global(.p-datatable .p-datatable-thead > tr > th) {
+    border-width: 1px 0px;
+    background: transparent;
+    font-weight: normal;
+}
+.table tbody {
+    border: 1px solid #dee2e6;
+    border-width: 0px 1px;
+}
+
+.table {
+    margin: 10px 10px 30px 10px;
+}

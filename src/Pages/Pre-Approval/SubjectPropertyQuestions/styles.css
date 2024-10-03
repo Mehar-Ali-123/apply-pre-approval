@@ -1,0 +1,13 @@
+.input input:hover{
+background: none !important;
+box-shadow: none !important;
+
+}
+.input input{
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 100%;
+    }
+    .down-input:hover{
+        box-shadow: none !important;
+    }

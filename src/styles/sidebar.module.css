@@ -1,0 +1,206 @@
+.sidebar {
+    background: var(--dark-color);
+    box-shadow: 0px 2px 4px rgba(165, 163, 174, 0.3);
+    padding: 20px;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sidebarItems {
+    margin: 10px 0px;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.sidebarItems2 {
+    margin: 10px 0px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.sidebarItems h4, .sidebarItems2 h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text-dark);
+}
+
+.sidebarItems li, .sidebarItems2 li {
+    list-style: none;
+
+}
+
+.plusIcon {
+    transition: transform 0.3s ease;
+}
+
+.minusIcon {
+    transition: transform 0.3s ease;
+}
+
+.minusIcon:hover {
+    transform: rotate(90deg);
+}
+
+.plusIcon:hover {
+    transform: rotate(45deg);
+}
+
+.sidebarItems .links, .sidebarItems2 .links {
+    transition: all 0.8s ease;
+}
+
+.sidebarItems a {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #fff;
+    background: transparent;
+    display: block;
+    width: 100%;
+    margin: 3px 0px;
+    text-align: start;
+    transition: background-color 0.3s ease-out;
+}
+
+.sidebarItems2 a {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #fff;
+    background: transparent;
+    display: block;
+    width: 100%;
+    margin: 3px 0px;
+    text-align: start;
+    transition: background-color 0.3s ease-out;
+}
+
+.sidebarItems2 .linkItems, .sidebarItems .linkItems {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #fff;
+    background: transparent;
+    display: block;
+    width: 100%;
+    margin: 3px 0px;
+    text-align: start;
+    transition: background-color 0.3s ease-out;
+}
+
+.sidebarItems svg {
+    font-size: 24px;
+    display: inline;
+}
+
+.sidebarItems2 svg {
+    font-size: 20px;
+    display: inline;
+}
+
+.sidebarItems a:hover,
+.sidebarItems span:hover,
+.sidebarItems .activeLink {
+    padding: 10px 5px;
+    text-align: center;
+    background-color: var(--primary-color) !important;
+    border-radius: 6px;
+    gap: 5px;
+}
+.sidebarItems2 a:hover,
+.sidebarItems2 span:hover,
+.sidebarItems2 .activeLink {
+    padding: 10px 5px;
+    text-align: center;
+    background-color: var(--primary-color) !important;
+    border-radius: 6px;
+    color: #fff;
+    gap: 5px;
+}
+
+.links :global(.active) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: var(--primary-color) !important;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.powered {
+    border-radius: 41px;
+    padding: 12px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.powered h6 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.powered span {
+    color: var(--primary-color);
+}
+
+.disabledLink {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.hover_navlink:hover,
+.active_navlink {
+    justify-content: center;
+}
+
+.bg_green {
+    padding: 10px 5px;
+    text-align: center;
+    background-color: var(--primary-color) !important;
+    border-radius: 6px;
+}
+
+.bg_green .txt_center {
+    display: flex;
+    justify-content: center !important;
+}
+
+.responsiveSidebar {
+    background: var(--dark-color) !important;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.responsiveSidebar :global(.p-sidebar-header) {
+    padding: 0 !important;
+}

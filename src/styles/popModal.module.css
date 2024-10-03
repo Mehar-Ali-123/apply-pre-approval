@@ -1,0 +1,21 @@
+.customModal {
+    width: 35%;
+}
+
+.customModal :global(.p-dialog-header) {
+    padding: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+.customModal :global(.p-dialog-header-icon) {
+    width: auto !important;
+    justify-content: flex-end !important;
+}
+
+.customModal :global(.p-dialog-header-icon:enabled:hover) {
+    background-color: transparent !important;
+}
+
+.customModal :global(.p-dialog-header-icon:focus) {
+    box-shadow: none !important;
+}
